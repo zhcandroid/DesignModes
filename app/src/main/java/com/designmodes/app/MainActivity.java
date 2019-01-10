@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    //代理模式
     public void proxyMode(View view){
 
         startActivity(new Intent(this, ProxyActivity.class));
