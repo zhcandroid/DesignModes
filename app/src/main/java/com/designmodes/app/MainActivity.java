@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.designmodes.app.builder.BuilderActivity;
 import com.designmodes.app.proxy.Buyer1;
 import com.designmodes.app.proxy.Buyer2;
 import com.designmodes.app.proxy.DynamicProxy;
@@ -27,6 +28,12 @@ public class MainActivity extends AppCompatActivity {
     public void proxyMode(View view){
 
         startActivity(new Intent(this, ProxyActivity.class));
+
+    }
+    //建造者模式
+    public void builderMode(View view){
+
+        startActivity(new Intent(this, BuilderActivity.class));
 
     }
 

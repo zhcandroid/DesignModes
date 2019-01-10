@@ -36,7 +36,7 @@ public class ProxyActivity extends Activity{
         Buyer2 buyer2 = new Buyer2();
 
         //根据传入的对象 动态生成
-        //这里可以结合工厂设计模式 把生成Subject的具体方式隐藏起来 
+        //这里可以结合工厂设计模式 把生成Subject的具体方式隐藏起来
         Subject buyer1_proxy = (Subject) mDynamicProxy.newInstanceProxyObj(buyer1);
         buyer1_proxy.buy();
 

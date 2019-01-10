@@ -21,6 +21,9 @@
 
 
         <activity android:name=".proxy.ProxyActivity"></activity>
+
+        <activity android:name=".builder.BuilderActivity"></activity>
+
     </application>
 
 </manifest>
