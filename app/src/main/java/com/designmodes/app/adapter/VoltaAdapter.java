@@ -6,6 +6,8 @@ package com.designmodes.app.adapter;
  * 1目标角色，也就是所期待得到的接口。
  * 2需要适配的接口
  * 3适配器角色，是适配器模式的核心。适配器将源接口转换成目标接口
+ *
+ * 使用场景：“需要统一的输出接口，而输入端的类型不可预知”情形，
  */
 public class VoltaAdapter extends Volta220 implements IVolta {
     @Override
